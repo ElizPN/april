@@ -6,6 +6,11 @@ import { Hero } from "./components/Hero";
 import { Clients } from "./components/Clients";
 import { About } from "./components/About";
 import { Counts } from "./components/Counts";
+import { Services } from "./components/Services";
+import { Portfolio } from "./components/Portfolio";
+import { Team } from "./components/Team";
+import { Contact } from "./components/Contact";
+import { Footer } from "./components/Footer";
 
 function App() {
   return (
@@ -15,6 +20,11 @@ function App() {
       <Clients />
       <About />
       <Counts />
+      <Services />
+      <Portfolio />
+      <Team />
+      <Contact />
+      <Footer />
     </div>
   );
 }
