@@ -8,52 +8,32 @@ export function Counts() {
           <div className='col-lg-3 col-md-6'>
             <div className='count-box'>
               <i className='bi bi-emoji-smile'></i>
-              <span
-                data-purecounter-start='0'
-                data-purecounter-end='232'
-                data-purecounter-duration='1'
-                className='purecounter'
-              ></span>
-              <p>Happy Clients</p>
+              <span>6</span>
+              <p>Sopranos</p>
             </div>
           </div>
 
           <div className='col-lg-3 col-md-6 mt-5 mt-md-0'>
             <div className='count-box'>
               <i className='bi bi-journal-richtext'></i>
-              <span
-                data-purecounter-start='0'
-                data-purecounter-end='521'
-                data-purecounter-duration='1'
-                className='purecounter'
-              ></span>
-              <p>Projects</p>
+              <span>6</span>
+              <p>Alts</p>
             </div>
           </div>
 
           <div className='col-lg-3 col-md-6 mt-5 mt-lg-0'>
             <div className='count-box'>
               <i className='bi bi-headset'></i>
-              <span
-                data-purecounter-start='0'
-                data-purecounter-end='1463'
-                data-purecounter-duration='1'
-                className='purecounter'
-              ></span>
-              <p>Hours Of Support</p>
+              <span>4</span>
+              <p>Basses</p>
             </div>
           </div>
 
           <div className='col-lg-3 col-md-6 mt-5 mt-lg-0'>
             <div className='count-box'>
               <i className='bi bi-people'></i>
-              <span
-                data-purecounter-start='0'
-                data-purecounter-end='15'
-                data-purecounter-duration='1'
-                className='purecounter'
-              ></span>
-              <p>Hard Workers</p>
+              <span>16</span>
+              <p>Lucky people</p>
             </div>
           </div>
         </div>
