@@ -6,7 +6,7 @@ export function Header() {
       <div className='container d-flex align-items-center'>
         <h1 className='logo me-auto'>
           <a href='index.html'>
-            Presento<span>.</span>
+            April<span>.</span>
           </a>
         </h1>
 
