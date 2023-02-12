@@ -6,9 +6,10 @@ export function Hero({}) {
       <div className='container' data-aos='zoom-out' data-aos-delay={100}>
         <div className='row'>
           <div className='col-xl-6'>
-            <h1>Bettter digital experience with Presento</h1>
+            <h1>We are the choir April</h1>
             <h2>
-              We are team of talented designers making websites with Bootstrap
+              Each work of the "April" choir is a small musical experiment and
+              adventure.
             </h2>
             <a href='#about' className='btn-get-started scrollto'>
               Get Started
