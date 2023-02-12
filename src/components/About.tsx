@@ -7,11 +7,11 @@ export function About({}) {
         <div className='row no-gutters'>
           <div className='content col-xl-5 d-flex align-items-stretch'>
             <div className='content'>
-              <h3>Voluptatem dignissimos provident quasi</h3>
+              <h3>Our program</h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis
-                aute irure dolor in reprehenderit
+                The program includes the performance of music of various genres,
+                eras and cultures in Ukrainian, Swedish, Icelandic, Italian,
+                Latin, Belarusian, Greek and other languages.
               </p>
               <a href='#' className='about-btn'>
                 <span>About us</span> <i className='bx bx-chevron-right'></i>
