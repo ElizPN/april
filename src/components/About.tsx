@@ -27,11 +27,8 @@ export function About({}) {
                   data-aos-delay='100'
                 >
                   <i className='bx bx-receipt'></i>
-                  <h4>Corporis voluptates sit</h4>
-                  <p>
-                    Consequuntur sunt aut quasi enim aliquam quae harum pariatur
-                    laboris nisi ut aliquip
-                  </p>
+                  <h4>Hallelujah</h4>
+                  <p>Help me with short description</p>
                 </div>
                 <div
                   className='col-md-6 icon-box'
@@ -39,11 +36,8 @@ export function About({}) {
                   data-aos-delay='200'
                 >
                   <i className='bx bx-cube-alt'></i>
-                  <h4>Ullamco laboris nisi</h4>
-                  <p>
-                    Excepteur sint occaecat cupidatat non proident, sunt in
-                    culpa qui officia deserunt
-                  </p>
+                  <h4>lascia ch'io pianga</h4>
+                  <p>Help me with short description</p>
                 </div>
                 <div
                   className='col-md-6 icon-box'
@@ -51,11 +45,8 @@ export function About({}) {
                   data-aos-delay='300'
                 >
                   <i className='bx bx-images'></i>
-                  <h4>Labore consequatur</h4>
-                  <p>
-                    Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut
-                    maiores omnis facere
-                  </p>
+                  <h4>Dona Nobis Pacem</h4>
+                  <p>Help me with short description</p>
                 </div>
                 <div
                   className='col-md-6 icon-box'
@@ -63,11 +54,8 @@ export function About({}) {
                   data-aos-delay='400'
                 >
                   <i className='bx bx-shield'></i>
-                  <h4>Beatae veritatis</h4>
-                  <p>
-                    Expedita veritatis consequuntur nihil tempore laudantium
-                    vitae denat pacta
-                  </p>
+                  <h4>Sofðu unga ástin mín</h4>
+                  <p>Help me with short description</p>
                 </div>
               </div>
             </div>
