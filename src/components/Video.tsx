@@ -16,7 +16,7 @@ export function Video() {
             <div className='icon-box' data-aos='fade-up' data-aos-delay='100'>
               <i className='bi bi-briefcase'></i>
               <h4>
-                <a href='#'>April in Sigtuna</a>
+                <a href='#'>Charity performance in Interbok</a>
               </h4>
               <p>Link to YouTube</p>
             </div>
@@ -36,16 +36,29 @@ export function Video() {
               <h4>
                 <a href='#'>April in Swedish History Museum</a>
               </h4>
-              <p>Link to YouTube</p>
+
+              <iframe
+                width='100%'
+                height='315'
+                src='https://www.youtube.com/embed/OeKTt7JiQKM'
+                title='YouTube video player'
+                allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
+              ></iframe>
             </div>
           </div>
           <div className='col-md-6 mt-4 mt-md-0'>
             <div className='icon-box' data-aos='fade-up' data-aos-delay='400'>
               <i className='bi bi-binoculars'></i>
               <h4>
-                <a href='#'>Charity performance in Interbok</a>
+                <a href='#'>April in Sigtuna</a>
               </h4>
-              <p>Link to YouTube</p>
+              <iframe
+                width='100%'
+                height='315'
+                src='https://www.youtube.com/embed/wF4mOfuBc0w'
+                title='YouTube video player'
+                allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
+              ></iframe>
             </div>
           </div>
           <div className='col-md-6 mt-4 mt-md-0'>
