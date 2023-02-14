@@ -32,7 +32,7 @@ export function Portfolio() {
           <div className='col-lg-4 col-md-6 portfolio-item filter-app'>
             <div className='portfolio-wrap'>
               <img
-                src='assets/img/portfolio/portfolio-1.jpg'
+                src='assets/img/portfolio/one.jpeg'
                 className='img-fluid'
                 alt=''
               />
@@ -41,7 +41,7 @@ export function Portfolio() {
                 <p>App</p>
                 <div className='portfolio-links'>
                   <a
-                    href='assets/img/portfolio/portfolio-1.jpg'
+                    href='assets/img/portfolio/one.jpeg'
                     data-gallery='portfolioGallery'
                     className='portfolio-lightbox'
                     title='App 1'
@@ -59,7 +59,7 @@ export function Portfolio() {
           <div className='col-lg-4 col-md-6 portfolio-item filter-web'>
             <div className='portfolio-wrap'>
               <img
-                src='assets/img/portfolio/portfolio-2.jpg'
+                src='assets/img/portfolio/five.jpg'
                 className='img-fluid'
                 alt=''
               />
@@ -68,7 +68,7 @@ export function Portfolio() {
                 <p>Web</p>
                 <div className='portfolio-links'>
                   <a
-                    href='assets/img/portfolio/portfolio-2.jpg'
+                    href='assets/img/portfolio/five.jpg'
                     data-gallery='portfolioGallery'
                     className='portfolio-lightbox'
                     title='Web 3'
@@ -86,7 +86,7 @@ export function Portfolio() {
           <div className='col-lg-4 col-md-6 portfolio-item filter-app'>
             <div className='portfolio-wrap'>
               <img
-                src='assets/img/portfolio/portfolio-3.jpg'
+                src='assets/img/portfolio/two.jpeg'
                 className='img-fluid'
                 alt=''
               />
@@ -95,7 +95,7 @@ export function Portfolio() {
                 <p>App</p>
                 <div className='portfolio-links'>
                   <a
-                    href='assets/img/portfolio/portfolio-3.jpg'
+                    href='assets/img/portfolio/two.jpeg'
                     data-gallery='portfolioGallery'
                     className='portfolio-lightbox'
                     title='App 2'
@@ -113,7 +113,7 @@ export function Portfolio() {
           <div className='col-lg-4 col-md-6 portfolio-item filter-card'>
             <div className='portfolio-wrap'>
               <img
-                src='assets/img/portfolio/portfolio-4.jpg'
+                src='assets/img/portfolio/three.jpeg'
                 className='img-fluid'
                 alt=''
               />
@@ -122,7 +122,7 @@ export function Portfolio() {
                 <p>Card</p>
                 <div className='portfolio-links'>
                   <a
-                    href='assets/img/portfolio/portfolio-4.jpg'
+                    href='assets/img/portfolio/three.jpeg'
                     data-gallery='portfolioGallery'
                     className='portfolio-lightbox'
                     title='Card 2'
@@ -140,7 +140,7 @@ export function Portfolio() {
           <div className='col-lg-4 col-md-6 portfolio-item filter-web'>
             <div className='portfolio-wrap'>
               <img
-                src='assets/img/portfolio/portfolio-5.jpg'
+                src='assets/img/portfolio/four.jpg'
                 className='img-fluid'
                 alt=''
               />
@@ -149,7 +149,7 @@ export function Portfolio() {
                 <p>Web</p>
                 <div className='portfolio-links'>
                   <a
-                    href='assets/img/portfolio/portfolio-5.jpg'
+                    href='assets/img/portfolio/four.jpg'
                     data-gallery='portfolioGallery'
                     className='portfolio-lightbox'
                     title='Web 2'
