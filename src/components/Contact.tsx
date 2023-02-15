@@ -5,9 +5,9 @@ export function Contact() {
         <div className='section-title'>
           <h2>Contact</h2>
           <p>
-            Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex
-            aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos
-            quisquam cupiditate. Et nemo qui impedit suscipit alias ea.
+            If you want to listen us in real life, you can invite us to your
+            event. Feel free to contact us in case you want to become a member
+            of April team!
           </p>
         </div>
 
@@ -18,7 +18,9 @@ export function Contact() {
                 <div className='info-box'>
                   <i className='bx bx-map'></i>
                   <h3>Our Address</h3>
-                  <p>A108 Adam Street, New York, NY 535022</p>
+                  <p> Stockholm, Sveavagen 41, 111 34</p>
+                  ABF Stockholm Komvux City <br />
+                  <br />
                 </div>
               </div>
               <div className='col-md-6'>
