@@ -3,7 +3,7 @@ import logo from "./logo.svg";
 import "./App.css";
 import { Header } from "./components/Header";
 import { Hero } from "./components/Hero";
-import { About } from "./components/About";
+import { OurProgram } from "./components/OurProgram";
 import { Counts } from "./components/Counts";
 import { Video } from "./components/Video";
 import { Portfolio } from "./components/Portfolio";
@@ -17,7 +17,7 @@ function App() {
       <Header />
       <Hero />
       <Counts />
-      <About />
+      <OurProgram />
       <Video />
       <Portfolio />
       <Team />

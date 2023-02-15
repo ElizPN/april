@@ -22,8 +22,8 @@ export function Header() {
               </a>
             </li>
             <li>
-              <a className='nav-link scrollto' href='#about'>
-                About
+              <a className='nav-link scrollto' href='#program'>
+                Our program
               </a>
             </li>
             <li>
