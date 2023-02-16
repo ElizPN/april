@@ -30,9 +30,6 @@ export function Team() {
                   <a href=''>
                     <i className='bi bi-instagram'></i>
                   </a>
-                  <a href=''>
-                    <i className='bi bi-linkedin'></i>
-                  </a>
                 </div>
               </div>
               <div className='member-info'>
@@ -60,9 +57,6 @@ export function Team() {
                   <a href=''>
                     <i className='bi bi-instagram'></i>
                   </a>
-                  <a href=''>
-                    <i className='bi bi-linkedin'></i>
-                  </a>
                 </div>
               </div>
               <div className='member-info'>
@@ -79,6 +73,7 @@ export function Team() {
                   src='assets/img/team/alla.jpeg'
                   className='img-fluid'
                   alt=''
+                  height='200px'
                 />
                 <div className='social'>
                   <a href=''>
@@ -89,9 +84,6 @@ export function Team() {
                   </a>
                   <a href=''>
                     <i className='bi bi-instagram'></i>
-                  </a>
-                  <a href=''>
-                    <i className='bi bi-linkedin'></i>
                   </a>
                 </div>
               </div>
@@ -120,9 +112,6 @@ export function Team() {
                   <a href=''>
                     <i className='bi bi-instagram'></i>
                   </a>
-                  <a href=''>
-                    <i className='bi bi-linkedin'></i>
-                  </a>
                 </div>
               </div>
               <div className='member-info'>
@@ -148,9 +137,6 @@ export function Team() {
                   </a>
                   <a href=''>
                     <i className='bi bi-instagram'></i>
-                  </a>
-                  <a href=''>
-                    <i className='bi bi-linkedin'></i>
                   </a>
                 </div>
               </div>
