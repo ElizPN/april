@@ -10,7 +10,7 @@ export function Footer() {
               </h3>
               <p>
                 ABF Stockholm Komvux City <br />
-                Stockholm, Sweawegen 41, 111 34
+                Stockholm, Sveavägen 41, 111 34
                 <br />
                 Sweden <br />
                 <br />
@@ -62,18 +62,6 @@ export function Footer() {
                 </li>
               </ul>
             </div>
-
-            {/* <div className='col-lg-4 col-md-6 footer-newsletter'>
-              <h4>Join Our Newsletter</h4>
-              <p>
-                Tamen quem nulla quae legam multos aute sint culpa legam noster
-                magna
-              </p>
-              <form action='' method='post'>
-                <input type='email' name='email' />
-                <input type='submit' value='Subscribe' />
-              </form>
-            </div> */}
           </div>
         </div>
       </div>
@@ -92,7 +80,7 @@ export function Footer() {
         <!-- You can delete the links only if you purchased the pro version. -->
         <!-- Licensing information: https://bootstrapmade.com/license/ -->
         <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/presento-bootstrap-corporate-template/ --> */}
-            Designed by <a href='https://bootstrapmade.com/'>BootstrapMade</a>
+            {/* Designed by <a href='https://bootstrapmade.com/'>BootstrapMade</a> */}
           </div>
         </div>
         <div className='social-links text-center text-md-end pt-3 pt-md-0'>

@@ -18,7 +18,7 @@ export function Contact() {
                 <div className='info-box'>
                   <i className='bx bx-map'></i>
                   <h3>Our Address</h3>
-                  <p> Stockholm, Sveavagen 41, 111 34</p>
+                  <p> Stockholm, Sveavägen 41, 111 34</p>
                   ABF Stockholm Komvux City <br />
                   <br />
                 </div>
