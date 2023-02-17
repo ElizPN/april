@@ -18,6 +18,20 @@ export function Header() {
     setIsMobileNavOpen(!isMobileNavOpen);
   };
 
+  const renderNavItems = navItems.map((item, intex) => (
+    <li key={intex}>
+      <a
+        onClick={() => {
+          setIsMobileNavOpen(false);
+        }}
+        className='nav-link scrollto'
+        href={item.link}
+      >
+        {item.name}
+      </a>
+    </li>
+  ));
+
   return (
     <header id='header' className='fixed-top d-flex align-items-center'>
       <div className='container d-flex align-items-center'>
@@ -29,45 +43,13 @@ export function Header() {
         <a href='index.html' className='logo me-auto'>
           <img src='assets/img/logo.png' alt='' />
         </a>
-        {/* loop array and render jsx with all styles */}
         <nav
           id='navbar'
           className={`navbar order-last order-lg-0 ${
             isMobileNavOpen ? "navbar-mobile" : ""
           }`}
         >
-          <ul>
-            <li>
-              <a className='nav-link scrollto active' href='#hero'>
-                Home
-              </a>
-            </li>
-            <li>
-              <a className='nav-link scrollto' href='#program'>
-                Our program
-              </a>
-            </li>
-            <li>
-              <a className='nav-link scrollto' href='#services'>
-                Listen
-              </a>
-            </li>
-            <li>
-              <a className='nav-link scrollto ' href='#portfolio'>
-                Portfolio
-              </a>
-            </li>
-            <li>
-              <a className='nav-link scrollto' href='#team'>
-                Our team
-              </a>
-            </li>
-            <li>
-              <a className='nav-link scrollto' href='#contact'>
-                Contact
-              </a>
-            </li>
-          </ul>
+          <ul>{renderNavItems}</ul>
           <i
             className={`bi bi-list mobile-nav-toggle ${
               isMobileNavOpen ? "bi-x" : "bi-list"
