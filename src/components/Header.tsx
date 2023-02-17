@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 
-//create array from objects
 
 const navItems = [
   { name: "Home", link: "#hero" },
