@@ -16,7 +16,7 @@ export function Team() {
             <div className='member' data-aos='fade-up' data-aos-delay='100'>
               <div className='member-img'>
                 <img
-                  src='assets/img/team/gleb.jpeg'
+                  src={process.env.PUBLIC_URL + "/assets/img/team/gleb.jpeg"}
                   className='img-fluid'
                   alt=''
                 />
@@ -43,7 +43,7 @@ export function Team() {
             <div className='member' data-aos='fade-up' data-aos-delay='200'>
               <div className='member-img'>
                 <img
-                  src='assets/img/team/ksenia.jpeg'
+                  src={process.env.PUBLIC_URL + "/assets/img/team/ksenia.jpeg"}
                   className='img-fluid'
                   alt=''
                 />
@@ -70,7 +70,7 @@ export function Team() {
             <div className='member' data-aos='fade-up' data-aos-delay='300'>
               <div className='member-img'>
                 <img
-                  src='assets/img/team/alla.jpeg'
+                  src={process.env.PUBLIC_URL + "/assets/img/team/alla.jpeg"}
                   className='img-fluid'
                   alt=''
                   height='200px'
@@ -98,7 +98,7 @@ export function Team() {
             <div className='member' data-aos='fade-up' data-aos-delay='400'>
               <div className='member-img'>
                 <img
-                  src='assets/img/team/liza.jpeg'
+                  src={process.env.PUBLIC_URL + "/assets/img/team/liza.jpeg"}
                   className='img-fluid'
                   alt=''
                 />
@@ -124,7 +124,7 @@ export function Team() {
             <div className='member' data-aos='fade-up' data-aos-delay='400'>
               <div className='member-img'>
                 <img
-                  src='assets/img/team/nastia.jpeg'
+                  src={process.env.PUBLIC_URL + "/assets/img/team/nastia.jpeg"}
                   className='img-fluid'
                   alt=''
                 />

@@ -32,7 +32,7 @@ export function Portfolio() {
           <div className='col-lg-4 col-md-6 portfolio-item filter-app'>
             <div className='portfolio-wrap'>
               <img
-                src='assets/img/portfolio/one.jpeg'
+                src={process.env.PUBLIC_URL + "/assets/img/portfolio/one.jpeg"}
                 className='img-fluid'
                 alt=''
               />
@@ -41,7 +41,9 @@ export function Portfolio() {
                 <p>App</p>
                 <div className='portfolio-links'>
                   <a
-                    href='assets/img/portfolio/one.jpeg'
+                    href={
+                      process.env.PUBLIC_URL + "/assets/img/portfolio/one.jpeg"
+                    }
                     data-gallery='portfolioGallery'
                     className='portfolio-lightbox'
                     title='App 1'
@@ -59,7 +61,7 @@ export function Portfolio() {
           <div className='col-lg-4 col-md-6 portfolio-item filter-web'>
             <div className='portfolio-wrap'>
               <img
-                src='assets/img/portfolio/five.jpg'
+                src={process.env.PUBLIC_URL + "/assets/img/portfolio/five.jpg"}
                 className='img-fluid'
                 alt=''
               />
@@ -68,7 +70,9 @@ export function Portfolio() {
                 <p>Web</p>
                 <div className='portfolio-links'>
                   <a
-                    href='assets/img/portfolio/perf1.jpeg'
+                    href={
+                      process.env.PUBLIC_URL + "/assets/img/portfolio/five.jpg"
+                    }
                     data-gallery='portfolioGallery'
                     className='portfolio-lightbox'
                     title='Web 3'
@@ -86,7 +90,7 @@ export function Portfolio() {
           <div className='col-lg-4 col-md-6 portfolio-item filter-app'>
             <div className='portfolio-wrap'>
               <img
-                src='assets/img/portfolio/two.jpeg'
+                src={process.env.PUBLIC_URL + "/assets/img/portfolio/two.jpeg"}
                 className='img-fluid'
                 alt=''
               />
@@ -95,7 +99,9 @@ export function Portfolio() {
                 <p>App</p>
                 <div className='portfolio-links'>
                   <a
-                    href='assets/img/portfolio/two.jpeg'
+                    href={
+                      process.env.PUBLIC_URL + "/assets/img/portfolio/two.jpeg"
+                    }
                     data-gallery='portfolioGallery'
                     className='portfolio-lightbox'
                     title='App 2'
@@ -113,7 +119,9 @@ export function Portfolio() {
           <div className='col-lg-4 col-md-6 portfolio-item filter-card'>
             <div className='portfolio-wrap'>
               <img
-                src='assets/img/portfolio/three.jpeg'
+                src={
+                  process.env.PUBLIC_URL + "/assets/img/portfolio/three.jpeg"
+                }
                 className='img-fluid'
                 alt=''
               />
@@ -122,7 +130,10 @@ export function Portfolio() {
                 <p>Card</p>
                 <div className='portfolio-links'>
                   <a
-                    href='assets/img/portfolio/three.jpeg'
+                    href={
+                      process.env.PUBLIC_URL +
+                      "/assets/img/portfolio/three.jpeg"
+                    }
                     data-gallery='portfolioGallery'
                     className='portfolio-lightbox'
                     title='Card 2'
@@ -140,7 +151,9 @@ export function Portfolio() {
           <div className='col-lg-4 col-md-6 portfolio-item filter-web'>
             <div className='portfolio-wrap'>
               <img
-                src='assets/img/portfolio/perf2.jpeg'
+                src={
+                  process.env.PUBLIC_URL + "/assets/img/portfolio/perf2.jpeg"
+                }
                 className='img-fluid'
                 alt=''
               />
@@ -149,7 +162,10 @@ export function Portfolio() {
                 <p>Web</p>
                 <div className='portfolio-links'>
                   <a
-                    href='assets/img/portfolio/perf2.jpeg'
+                    href={
+                      process.env.PUBLIC_URL +
+                      "/assets/img/portfolio/perf2.jpeg"
+                    }
                     data-gallery='portfolioGallery'
                     className='portfolio-lightbox'
                     title='Web 2'
@@ -167,7 +183,7 @@ export function Portfolio() {
           <div className='col-lg-4 col-md-6 portfolio-item filter-app'>
             <div className='portfolio-wrap'>
               <img
-                src='assets/img/portfolio/six.jpeg'
+                src={process.env.PUBLIC_URL + "/assets/img/portfolio/six.jpeg"}
                 className='img-fluid'
                 alt=''
               />
@@ -176,7 +192,9 @@ export function Portfolio() {
                 <p>App</p>
                 <div className='portfolio-links'>
                   <a
-                    href='assets/img/portfolio/six.jpeg'
+                    href={
+                      process.env.PUBLIC_URL + "/assets/img/portfolio/six.jpeg"
+                    }
                     data-gallery='portfolioGallery'
                     className='portfolio-lightbox'
                     title='App 3'
@@ -194,7 +212,9 @@ export function Portfolio() {
           <div className='col-lg-4 col-md-6 portfolio-item filter-card'>
             <div className='portfolio-wrap'>
               <img
-                src='assets/img/portfolio/seven.jpeg'
+                src={
+                  process.env.PUBLIC_URL + "/assets/img/portfolio/seven.jpeg"
+                }
                 className='img-fluid'
                 alt=''
               />
@@ -203,7 +223,10 @@ export function Portfolio() {
                 <p>Card</p>
                 <div className='portfolio-links'>
                   <a
-                    href='assets/img/portfolio/seven.jpeg'
+                    href={
+                      process.env.PUBLIC_URL +
+                      "/assets/img/portfolio/seven.jpeg"
+                    }
                     data-gallery='portfolioGallery'
                     className='portfolio-lightbox'
                     title='Card 1'
@@ -221,7 +244,9 @@ export function Portfolio() {
           <div className='col-lg-4 col-md-6 portfolio-item filter-card'>
             <div className='portfolio-wrap'>
               <img
-                src='assets/img/portfolio/perf1.jpeg'
+                src={
+                  process.env.PUBLIC_URL + "/assets/img/portfolio/perf1.jpeg"
+                }
                 className='img-fluid'
                 alt=''
               />
@@ -230,7 +255,10 @@ export function Portfolio() {
                 <p>Card</p>
                 <div className='portfolio-links'>
                   <a
-                    href='assets/img/portfolio/perf1.jpeg'
+                    href={
+                      process.env.PUBLIC_URL +
+                      "/assets/img/portfolio/perf1.jpeg"
+                    }
                     data-gallery='portfolioGallery'
                     className='portfolio-lightbox'
                     title='Card 3'
@@ -248,7 +276,9 @@ export function Portfolio() {
           <div className='col-lg-4 col-md-6 portfolio-item filter-web'>
             <div className='portfolio-wrap'>
               <img
-                src='assets/img/portfolio/repet2.jpeg'
+                src={
+                  process.env.PUBLIC_URL + "/assets/img/portfolio/repet2.jpeg"
+                }
                 className='img-fluid'
                 alt=''
               />
@@ -257,7 +287,10 @@ export function Portfolio() {
                 <p>Web</p>
                 <div className='portfolio-links'>
                   <a
-                    href='assets/img/portfolio/repet2.jpeg'
+                    href={
+                      process.env.PUBLIC_URL +
+                      "/assets/img/portfolio/repet2.jpeg"
+                    }
                     data-gallery='portfolioGallery'
                     className='portfolio-lightbox'
                     title='Web 3'

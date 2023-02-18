@@ -38,9 +38,6 @@ export function Header() {
             April<span>.</span>
           </a>
         </h1>
-        <a href='index.html' className='logo me-auto'>
-          <img src='assets/img/logo.png' alt='' />
-        </a>
         <nav
           id='navbar'
           className={`navbar order-last order-lg-0 ${
