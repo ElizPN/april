@@ -1,6 +1,6 @@
 import React from "react";
 
-export function OurProgram({}) {
+export function OurProgram() {
   return (
     <section id='program' className='about section-bg'>
       <div className='container' data-aos='fade-up'>
@@ -13,7 +13,7 @@ export function OurProgram({}) {
                 eras and cultures in Ukrainian, Swedish, Icelandic, Italian,
                 Latin, Belarusian, Greek and other languages.
               </p>
-              <a href='#' className='about-btn'>
+              <a href='/' className='about-btn'>
                 <span>About us</span> <i className='bx bx-chevron-right'></i>
               </a>
             </div>

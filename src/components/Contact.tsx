@@ -52,7 +52,6 @@ export function Contact() {
             <form
               action='forms/contact.php'
               method='post'
-              role='form'
               className='php-email-form'
             >
               <div className='row'>

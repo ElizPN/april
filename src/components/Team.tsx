@@ -21,13 +21,13 @@ export function Team() {
                   alt=''
                 />
                 <div className='social'>
-                  <a href=''>
+                  <a href='/'>
                     <i className='bi bi-twitter'></i>
                   </a>
-                  <a href=''>
+                  <a href='/'>
                     <i className='bi bi-facebook'></i>
                   </a>
-                  <a href=''>
+                  <a href='/'>
                     <i className='bi bi-instagram'></i>
                   </a>
                 </div>
@@ -48,13 +48,13 @@ export function Team() {
                   alt=''
                 />
                 <div className='social'>
-                  <a href=''>
+                  <a href='/'>
                     <i className='bi bi-twitter'></i>
                   </a>
-                  <a href=''>
+                  <a href='/'>
                     <i className='bi bi-facebook'></i>
                   </a>
-                  <a href=''>
+                  <a href='/'>
                     <i className='bi bi-instagram'></i>
                   </a>
                 </div>
@@ -76,13 +76,13 @@ export function Team() {
                   height='200px'
                 />
                 <div className='social'>
-                  <a href=''>
+                  <a href='/'>
                     <i className='bi bi-twitter'></i>
                   </a>
-                  <a href=''>
+                  <a href='/'>
                     <i className='bi bi-facebook'></i>
                   </a>
-                  <a href=''>
+                  <a href='/'>
                     <i className='bi bi-instagram'></i>
                   </a>
                 </div>
@@ -103,13 +103,13 @@ export function Team() {
                   alt=''
                 />
                 <div className='social'>
-                  <a href=''>
+                  <a href='/'>
                     <i className='bi bi-twitter'></i>
                   </a>
-                  <a href=''>
+                  <a href='/'>
                     <i className='bi bi-facebook'></i>
                   </a>
-                  <a href=''>
+                  <a href='/'>
                     <i className='bi bi-instagram'></i>
                   </a>
                 </div>
@@ -129,13 +129,13 @@ export function Team() {
                   alt=''
                 />
                 <div className='social'>
-                  <a href=''>
+                  <a href='/'>
                     <i className='bi bi-twitter'></i>
                   </a>
-                  <a href=''>
+                  <a href='/'>
                     <i className='bi bi-facebook'></i>
                   </a>
-                  <a href=''>
+                  <a href='/'>
                     <i className='bi bi-instagram'></i>
                   </a>
                 </div>

@@ -1,6 +1,6 @@
 import React from "react";
 
-export function Hero({}) {
+export function Hero() {
   return (
     <section id='hero' className='d-flex align-items-center'>
       <div className='container' data-aos='zoom-out' data-aos-delay={100}>

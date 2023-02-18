@@ -25,14 +25,14 @@ export function Footer() {
               <h4>Useful Links</h4>
               <ul>
                 <li>
-                  <i className='bx bx-chevron-right'></i> <a href='#'>Home</a>
+                  <i className='bx bx-chevron-right'></i> <a href='/'>Home</a>
                 </li>
                 <li>
-                  <i className='bx bx-chevron-right'></i>{" "}
-                  <a href='#'>About us</a>
+                  <i className='bx bx-chevron-right'></i>
+                  <a href='/'>About us</a>
                 </li>
                 <li>
-                  <i className='bx bx-chevron-right'></i> <a href='#'>Video</a>
+                  <i className='bx bx-chevron-right'></i> <a href='/'>Video</a>
                 </li>
               </ul>
             </div>
@@ -41,24 +41,24 @@ export function Footer() {
               <h4>Our Events</h4>
               <ul>
                 <li>
-                  <i className='bx bx-chevron-right'></i>{" "}
-                  <a href='#'>April in Sigtuna </a>
+                  <i className='bx bx-chevron-right'></i>
+                  <a href='/'>April in Sigtuna </a>
                 </li>
                 <li>
-                  <i className='bx bx-chevron-right'></i>{" "}
-                  <a href='#'>April in Saint Eugenia's Church</a>
+                  <i className='bx bx-chevron-right'></i>
+                  <a href='/'>April in Saint Eugenia's Church</a>
                 </li>
                 <li>
-                  <i className='bx bx-chevron-right'></i>{" "}
-                  <a href='#'>160-yearday of Kalinoŭski uprising</a>
+                  <i className='bx bx-chevron-right'></i>
+                  <a href='/'>160-yearday of Kalinoŭski uprising</a>
                 </li>
                 <li>
-                  <i className='bx bx-chevron-right'></i>{" "}
-                  <a href='#'>Charity performance in Interbok</a>
+                  <i className='bx bx-chevron-right'></i>
+                  <a href='/'>Charity performance in Interbok</a>
                 </li>
                 <li>
-                  <i className='bx bx-chevron-right'></i>{" "}
-                  <a href='#'>Albertus Pictor som Nordens ikonograf</a>
+                  <i className='bx bx-chevron-right'></i>
+                  <a href='/'>Albertus Pictor som Nordens ikonograf</a>
                 </li>
               </ul>
             </div>
@@ -69,7 +69,7 @@ export function Footer() {
       <div className='container d-md-flex py-4'>
         <div className='me-md-auto text-center text-md-start'>
           <div className='copyright'>
-            &copy; Copyright{" "}
+            &copy; Copyright
             <strong>
               <span>April</span>
             </strong>
@@ -84,19 +84,19 @@ export function Footer() {
           </div>
         </div>
         <div className='social-links text-center text-md-end pt-3 pt-md-0'>
-          <a href='#' className='twitter'>
+          <a href='/' className='twitter'>
             <i className='bx bxl-twitter'></i>
           </a>
-          <a href='#' className='facebook'>
+          <a href='/' className='facebook'>
             <i className='bx bxl-facebook'></i>
           </a>
-          <a href='#' className='instagram'>
+          <a href='/' className='instagram'>
             <i className='bx bxl-instagram'></i>
           </a>
-          <a href='#' className='google-plus'>
+          <a href='/' className='google-plus'>
             <i className='bx bxl-skype'></i>
           </a>
-          <a href='#' className='linkedin'>
+          <a href='/' className='linkedin'>
             <i className='bx bxl-linkedin'></i>
           </a>
         </div>
