@@ -29,10 +29,10 @@ export function Footer() {
                 </li>
                 <li>
                   <i className='bx bx-chevron-right'></i>
-                  <a href='/'>About us</a>
+                  <a href='#program'>Our Program</a>
                 </li>
                 <li>
-                  <i className='bx bx-chevron-right'></i> <a href='/'>Video</a>
+                  <i className='bx bx-chevron-right'></i> <a href='#listen'>Listen</a>
                 </li>
               </ul>
             </div>
@@ -42,7 +42,12 @@ export function Footer() {
               <ul>
                 <li>
                   <i className='bx bx-chevron-right'></i>
-                  <a href='/'>April in Sigtuna </a>
+                  <a
+                    href='https://www.youtube.com/watch?v=wF4mOfuBc0w'
+                    target='_blank'
+                  >
+                    April in Sigtuna{" "}
+                  </a>
                 </li>
                 <li>
                   <i className='bx bx-chevron-right'></i>
@@ -50,7 +55,12 @@ export function Footer() {
                 </li>
                 <li>
                   <i className='bx bx-chevron-right'></i>
-                  <a href='/'>160-yearday of Kalinoŭski uprising</a>
+                  <a
+                    href='https://www.youtube.com/watch?v=OeKTt7JiQKM'
+                    target='_blank'
+                  >
+                    160-yearday of Kalinoŭski uprising
+                  </a>
                 </li>
                 <li>
                   <i className='bx bx-chevron-right'></i>
@@ -76,11 +86,6 @@ export function Footer() {
             . All Rights Reserved
           </div>
           <div className='credits'>
-            {/* <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/presento-bootstrap-corporate-template/ --> */}
-            {/* Designed by <a href='https://bootstrapmade.com/'>BootstrapMade</a> */}
           </div>
         </div>
         <div className='social-links text-center text-md-end pt-3 pt-md-0'>
