@@ -11,7 +11,7 @@ export function Hero() {
               Each work of the "April" choir is a small musical experiment and
               adventure.
             </h2>
-            <a href='#about' className='btn-get-started scrollto'>
+            <a href='#program' className='btn-get-started scrollto'>
               Get Started
             </a>
           </div>
