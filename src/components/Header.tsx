@@ -3,7 +3,7 @@ import React, { useState } from "react";
 const navItems = [
   { name: "Home", link: "#hero" },
   { name: "Our program", link: "#program" },
-  { name: "Listen", link: "#services" },
+  { name: "Listen", link: "#listen" },
   { name: "Portfolio", link: "#portfolio" },
   { name: "Our team", link: "#team" },
   { name: "Contact", link: "#contact" },
