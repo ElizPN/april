@@ -24,7 +24,7 @@ export function Team() {
                   <a href='/'>
                     <i className='bi bi-twitter'></i>
                   </a>
-                  <a href='/'>
+                  <a href='https://www.facebook.com/gottliebskvortsoff'>
                     <i className='bi bi-facebook'></i>
                   </a>
                   <a href='/'>
