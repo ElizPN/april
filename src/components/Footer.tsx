@@ -32,7 +32,8 @@ export function Footer() {
                   <a href='#program'>Our Program</a>
                 </li>
                 <li>
-                  <i className='bx bx-chevron-right'></i> <a href='#listen'>Listen</a>
+                  <i className='bx bx-chevron-right'></i>{" "}
+                  <a href='#listen'>Listen</a>
                 </li>
               </ul>
             </div>
@@ -45,6 +46,7 @@ export function Footer() {
                   <a
                     href='https://www.youtube.com/watch?v=wF4mOfuBc0w'
                     target='_blank'
+                    rel='noreferrer'
                   >
                     April in Sigtuna{" "}
                   </a>
@@ -58,6 +60,7 @@ export function Footer() {
                   <a
                     href='https://www.youtube.com/watch?v=OeKTt7JiQKM'
                     target='_blank'
+                    rel='noreferrer'
                   >
                     160-yearday of Kalinoŭski uprising
                   </a>
@@ -85,8 +88,7 @@ export function Footer() {
             </strong>
             . All Rights Reserved
           </div>
-          <div className='credits'>
-          </div>
+          <div className='credits'></div>
         </div>
         <div className='social-links text-center text-md-end pt-3 pt-md-0'>
           <a href='/' className='twitter'>
