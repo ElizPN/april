@@ -4,7 +4,7 @@ import { Header } from "./components/Header";
 import { Hero } from "./components/Hero";
 import { OurProgram } from "./components/OurProgram";
 import { Counts } from "./components/Counts";
-import { Video } from "./components/Video";
+import { Listen } from "./components/Listen";
 import { Portfolio } from "./components/Portfolio";
 import { Team } from "./components/Team";
 import { Contact } from "./components/Contact";
@@ -17,7 +17,7 @@ function App() {
       <Hero />
       <Counts />
       <OurProgram />
-      <Video />
+      <Listen />
       <Portfolio />
       <Team />
       <Contact />

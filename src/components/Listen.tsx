@@ -1,6 +1,6 @@
-export function Video() {
+export function Listen() {
   return (
-    <section id='services' className='services section-bg '>
+    <section id='listen' className='services section-bg '>
       <div className='container' data-aos='fade-up'>
         <div className='section-title'>
           <h2>Listen</h2>
