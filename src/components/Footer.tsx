@@ -48,7 +48,7 @@ export function Footer() {
                     target='_blank'
                     rel='noreferrer'
                   >
-                    April in Sigtuna{" "}
+                    April in Sigtuna
                   </a>
                 </li>
                 <li>
