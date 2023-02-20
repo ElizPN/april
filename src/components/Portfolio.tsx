@@ -241,11 +241,11 @@ export function Portfolio() {
             </div>
           </div>
 
-          <div className='col-lg-4 col-md-6 portfolio-item filter-card'>
+        <div className='col-lg-4 col-md-6 portfolio-item filter-card'>
             <div className='portfolio-wrap'>
               <img
                 src={
-                  process.env.PUBLIC_URL + "/assets/img/portfolio/perf1.jpeg"
+                  process.env.PUBLIC_URL + "/assets/img/portfolio/repet4.jpeg"
                 }
                 className='img-fluid'
                 alt=''
@@ -257,7 +257,7 @@ export function Portfolio() {
                   <a
                     href={
                       process.env.PUBLIC_URL +
-                      "/assets/img/portfolio/perf1.jpeg"
+                      "/assets/img/portfolio/repet4.jpeg"
                     }
                     data-gallery='portfolioGallery'
                     className='portfolio-lightbox'
@@ -271,13 +271,13 @@ export function Portfolio() {
                 </div>
               </div>
             </div>
-          </div>
+          </div> 
 
           <div className='col-lg-4 col-md-6 portfolio-item filter-web'>
             <div className='portfolio-wrap'>
               <img
                 src={
-                  process.env.PUBLIC_URL + "/assets/img/portfolio/repet2.jpeg"
+                  process.env.PUBLIC_URL + "/assets/img/portfolio/perf3.jpeg"
                 }
                 className='img-fluid'
                 alt=''
@@ -289,7 +289,7 @@ export function Portfolio() {
                   <a
                     href={
                       process.env.PUBLIC_URL +
-                      "/assets/img/portfolio/repet2.jpeg"
+                      "/assets/img/portfolio/perf4.jpeg"
                     }
                     data-gallery='portfolioGallery'
                     className='portfolio-lightbox'
