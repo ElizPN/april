@@ -1,5 +1,6 @@
 import React from "react";
 import "./App.css";
+import "./Team.css";
 import { Header } from "./components/Header";
 import { Hero } from "./components/Hero";
 import { OurProgram } from "./components/OurProgram";
