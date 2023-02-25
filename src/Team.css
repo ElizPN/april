@@ -1,0 +1,22 @@
+@media (min-width: 992px) {
+  #team .row {
+    width: 15%;
+  }
+}
+
+@media (min-width: 692px) {
+  #team .row {
+    width: 25%;
+  }
+}
+@media (min-width: 392px) {
+  #team .row {
+    width: 33%;
+  }
+}
+
+@media (min-width: 92px) {
+  #team .row {
+    width: 50%;
+  }
+}
