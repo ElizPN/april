@@ -1,22 +1,23 @@
 @media (min-width: 992px) {
-  #team .row {
+  #team .container .d-flex {
     width: 15%;
   }
 }
+/* when I apply other media they overwrite previous madia */
 
 @media (min-width: 692px) {
-  #team .row {
+  #team .container .d-flex {
     width: 25%;
   }
 }
-@media (min-width: 392px) {
-  #team .row {
-    width: 33%;
+@media (min-width: 592px) {
+  #team .container .d-flex {
+    width: 40%;
   }
 }
 
 @media (min-width: 92px) {
-  #team .row {
+  #team .container .d-flex {
     width: 50%;
   }
 }
