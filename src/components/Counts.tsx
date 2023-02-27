@@ -7,7 +7,7 @@ export function Counts() {
         <div className='row'>
           <div className='col-lg-3 col-md-6'>
             <div className='count-box'>
-              <i className='bi bi-emoji-smile'></i>
+              <i className='bi bi-music-player'></i>
               <span>6</span>
               <p>Sopranos</p>
             </div>
@@ -15,7 +15,7 @@ export function Counts() {
 
           <div className='col-lg-3 col-md-6 mt-5 mt-md-0'>
             <div className='count-box'>
-              <i className='bi bi-journal-richtext'></i>
+              <i className='bi bi-vinyl'></i>
               <span>6</span>
               <p>Alts</p>
             </div>
@@ -23,7 +23,7 @@ export function Counts() {
 
           <div className='col-lg-3 col-md-6 mt-5 mt-lg-0'>
             <div className='count-box'>
-              <i className='bi bi-headset'></i>
+              <i className='bi bi-boombox'></i>
               <span>4</span>
               <p>Basses</p>
             </div>

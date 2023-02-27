@@ -27,7 +27,7 @@ export function OurProgram() {
                   data-aos='fade-up'
                   data-aos-delay='100'
                 >
-                  <i className='bx bx-receipt'></i>
+                  <i className='bi bi-music-note-list'></i>
                   <h4>Hallelujah</h4>
                   <p>Help me with short description</p>
                 </div>
@@ -36,7 +36,7 @@ export function OurProgram() {
                   data-aos='fade-up'
                   data-aos-delay='200'
                 >
-                  <i className='bx bx-cube-alt'></i>
+                  <i className='bi bi-file-earmark-music'></i>
                   <h4>lascia ch'io pianga</h4>
                   <p>Help me with short description</p>
                 </div>
@@ -45,7 +45,7 @@ export function OurProgram() {
                   data-aos='fade-up'
                   data-aos-delay='300'
                 >
-                  <i className='bx bx-images'></i>
+                  <i className='bi bi-music-note'></i>
                   <h4>Dona Nobis Pacem</h4>
                   <p>Help me with short description</p>
                 </div>
@@ -54,7 +54,7 @@ export function OurProgram() {
                   data-aos='fade-up'
                   data-aos-delay='400'
                 >
-                  <i className='bx bx-shield'></i>
+                  <i className='bi bi-music-note-beamed'></i>
                   <h4>Sofðu unga ástin mín</h4>
                   <p>Help me with short description</p>
                 </div>

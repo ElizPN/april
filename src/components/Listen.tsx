@@ -10,7 +10,7 @@ export function Listen() {
         <div className='row'>
           <div className='col-md-6'>
             <div className='icon-box' data-aos='fade-up' data-aos-delay='100'>
-              <i className='bi bi-briefcase'></i>
+              {/* <i className='bi bi-file-earmark-music'></i> */}
               <h4>
                 <a href='/'>Charity performance in Interbok</a>
               </h4>
@@ -19,7 +19,7 @@ export function Listen() {
           </div>
           <div className='col-md-6 mt-4 mt-md-0'>
             <div className='icon-box' data-aos='fade-up' data-aos-delay='200'>
-              <i className='bi bi-card-checklist'></i>
+              {/* <i className='bi bi-music-note-list'></i> */}
               <h4>
                 <a href='/'>April in Saint Eugenia's Church</a>
               </h4>
@@ -28,7 +28,7 @@ export function Listen() {
           </div>
           <div className='col-md-6 mt-4 mt-md-0'>
             <div className='icon-box' data-aos='fade-up' data-aos-delay='300'>
-              <i className='bi bi-bar-chart'></i>
+              {/* <i className='bi bi-music-note-beamed'></i> */}
               <h4>
                 <a href='/'>April in Swedish History Museum</a>
               </h4>
@@ -44,7 +44,7 @@ export function Listen() {
           </div>
           <div className='col-md-6 mt-4 mt-md-0'>
             <div className='icon-box' data-aos='fade-up' data-aos-delay='400'>
-              <i className='bi bi-binoculars'></i>
+              {/* <i className='bi bi-music-note'></i> */}
               <h4>
                 <a href='/'>April in Sigtuna</a>
               </h4>
@@ -59,7 +59,7 @@ export function Listen() {
           </div>
           <div className='col-md-6 mt-4 mt-md-0'>
             <div className='icon-box' data-aos='fade-up' data-aos-delay='500'>
-              <i className='bi bi-brightness-high'></i>
+              {/* <i className='bi bi-brightness-high'></i> */}
               <h4>
                 <a href='/'>Next event</a>
               </h4>
@@ -68,7 +68,7 @@ export function Listen() {
           </div>
           <div className='col-md-6 mt-4 mt-md-0'>
             <div className='icon-box' data-aos='fade-up' data-aos-delay='600'>
-              <i className='bi bi-calendar4-week'></i>
+              {/* <i className='bi bi-calendar4-week'></i> */}
               <h4>
                 <a href='/'>Next event</a>
               </h4>
