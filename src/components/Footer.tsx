@@ -82,28 +82,27 @@ export function Footer() {
       <div className='container d-md-flex py-4'>
         <div className='me-md-auto text-center text-md-start'>
           <div className='copyright'>
-            &copy; Copyright
+            &copy; Web development
             <strong>
-              <span>April</span>
+              <span> Romanova Yelyzaveta</span>
             </strong>
-            . All Rights Reserved
           </div>
           <div className='credits'></div>
         </div>
         <div className='social-links text-center text-md-end pt-3 pt-md-0'>
-          <a href='/' className='twitter'>
-            <i className='bx bxl-twitter'></i>
+          <a
+            href='https://github.com/ElizPN'
+            className='GitHub'
+            target='_blank'
+          >
+            <i className='bi bi-github'></i>
           </a>
-          <a href='/' className='facebook'>
-            <i className='bx bxl-facebook'></i>
-          </a>
-          <a href='/' className='instagram'>
-            <i className='bx bxl-instagram'></i>
-          </a>
-          <a href='/' className='google-plus'>
-            <i className='bx bxl-skype'></i>
-          </a>
-          <a href='/' className='linkedin'>
+
+          <a
+            href='https://www.linkedin.com/in/yelyzaveta-romanova-8216a6214/'
+            className='linkedin'
+            target='_blank'
+          >
             <i className='bx bxl-linkedin'></i>
           </a>
         </div>
