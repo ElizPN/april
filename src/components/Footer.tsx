@@ -94,6 +94,7 @@ export function Footer() {
             href='https://github.com/ElizPN'
             className='GitHub'
             target='_blank'
+            rel='noreferrer'
           >
             <i className='bi bi-github'></i>
           </a>
@@ -102,6 +103,7 @@ export function Footer() {
             href='https://www.linkedin.com/in/yelyzaveta-romanova-8216a6214/'
             className='linkedin'
             target='_blank'
+            rel='noreferrer'
           >
             <i className='bx bxl-linkedin'></i>
           </a>
