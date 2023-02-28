@@ -13,7 +13,7 @@ export function OurProgram() {
                 eras and cultures in Ukrainian, Swedish, Icelandic, Italian,
                 Latin, Belarusian, Greek and other languages.
               </p>
-              <a href='/' className='about-btn'>
+              <a href='#portfolio' className='about-btn'>
                 <span>About us</span> <i className='bx bx-chevron-right'></i>
               </a>
             </div>
