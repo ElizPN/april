@@ -1,4 +1,31 @@
+import { useState } from "react";
+
 export function Contact() {
+  const [result, setResult] = useState("");
+
+  const onSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
+    console.log(event);
+
+    event.preventDefault();
+    setResult("Sending....");
+    const formData = new FormData(event.target as HTMLFormElement);
+
+    formData.append("access_key", "bd98df05-478a-4a26-9936-33249f3e4882");
+
+    const res = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      body: formData,
+    }).then((res) => res.json());
+
+    if (res.success) {
+      console.log("Success", res);
+      setResult(res.message);
+    } else {
+      console.log("Error", res);
+      setResult(res.message);
+    }
+  };
+
   return (
     <section id='contact' className='contact'>
       <div className='container' data-aos='fade-up'>
@@ -50,9 +77,11 @@ export function Contact() {
 
           <div className='col-lg-6'>
             <form
-              action='forms/contact.php'
-              method='post'
               className='php-email-form'
+              onSubmit={onSubmit}
+              style={
+                result ? { visibility: "hidden" } : { visibility: "visible" }
+              }
             >
               <div className='row'>
                 <div className='col form-group'>
@@ -96,16 +125,17 @@ export function Contact() {
                 ></textarea>
               </div>
               <div className='my-3'>
-                <div className='loading'>Loading</div>
+                {/* <div className='loading'>Loading</div>
                 <div className='error-message'></div>
                 <div className='sent-message'>
                   Your message has been sent. Thank you!
-                </div>
+                </div> */}
               </div>
               <div className='text-center'>
                 <button type='submit'>Send Message</button>
               </div>
             </form>
+            <h3 className='text-center'>{result}</h3>
           </div>
         </div>
       </div>
